@@ -1,0 +1,29 @@
+/*
+* File: style.css
+* Author: Tóth Fedor László
+* Copyright: 2023, Tóth Fedor László
+* 
+*
+*
+*/
+
+#about{
+    background-color: brown;
+    border: 2px solid;
+    text-align: center;
+    font-size: 35px;
+    position: fixed;
+    width: 50vh;
+    top: 100px;
+    right: 210px;
+    transform: rotate(360deg);
+    transition: transform 5s;
+}
+
+#about:hover{
+    font-weight: bold;
+    transform: rotate(-360deg);
+    background-color: blue;
+    border: 200px solid;
+    transition: transform 5s;
+}

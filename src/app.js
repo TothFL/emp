@@ -94,4 +94,3 @@ empList.forEach(myFunction);
 
     });
 })();
-
